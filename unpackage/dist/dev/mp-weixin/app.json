@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/me/index",
+    "pages/repair/index",
+    "pages/details/index",
+    "pages/uploadPic/index",
+    "pages/confirmPay/confirmPay",
+    "pages/agreement/agreement",
+    "pages/orders/orders",
+    "pages/orderInfo/orderInfo",
+    "pages/applicationRefund/applicationRefund"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#043764",
+    "borderStyle": "white",
+    "backgroundColor": "white",
+    "list": [
+      {
+        "iconPath": "static/home_fill_black.png",
+        "selectedIconPath": "static/home_fill.png",
+        "pagePath": "pages/index/index",
+        "text": "主页"
+      },
+      {
+        "iconPath": "static/维修-black.png",
+        "selectedIconPath": "static/维修.png",
+        "pagePath": "pages/repair/index",
+        "text": "维修"
+      },
+      {
+        "iconPath": "static/我的-black.png",
+        "selectedIconPath": "static/我的-我的.png",
+        "pagePath": "pages/me/index",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

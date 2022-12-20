@@ -1,0 +1,7 @@
+{
+  "name": "getOrderList",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

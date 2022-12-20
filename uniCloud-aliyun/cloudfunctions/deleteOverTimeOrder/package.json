@@ -1,0 +1,7 @@
+{
+  "name": "deleteOverTimeOrder",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

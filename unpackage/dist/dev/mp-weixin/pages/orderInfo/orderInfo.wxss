@@ -1,0 +1,188 @@
+.content {
+  background-color: #f5f5f5;
+  position: relative;
+  overflow-y: auto;
+  width: 100%;
+  box-sizing: border-box;
+  padding-bottom: 160rpx;
+  height: 100vh;
+  overflow: scroll;
+  font-size: 14px;
+}
+.content .top-tip {
+  width: 100%;
+  background-color: #fff7e5;
+  display: flex;
+  height: 150rpx;
+  align-items: center;
+  color: #666;
+  position: relative;
+}
+.content .top-tip .left {
+  height: 150rpx;
+  width: 120rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content .top-tip .left image {
+  width: 80rpx;
+  height: 80rpx;
+}
+.content .top-tip .close {
+  font-size: 16px;
+  position: absolute;
+  top: 15rpx;
+  right: 20rpx;
+}
+.content .penson-info {
+  padding: 20rpx;
+  background-color: #fff;
+}
+.content .penson-info .name-and-phone {
+  margin-bottom: 5rpx;
+}
+.content .penson-info .name-and-phone .name {
+  margin-right: 40rpx;
+}
+.content .border-bottom {
+  display: flex;
+  -webkit-transform: translate(-10px, 0px);
+          transform: translate(-10px, 0px);
+}
+.content .border-bottom .bo-for {
+  display: flex;
+}
+.content .border-bottom .bo-for ._div {
+  width: 25rpx;
+  height: 12rpx;
+  transform: skew(-30deg);
+  /*设置倾斜度为-30*/
+  -webkit-transform: skew(-30deg);
+  -moz-transform: skew(-30deg);
+  -o-transform: skew(-30deg);
+  -ms-transform: skew(-30deg);
+  background-color: #f24923;
+  margin-right: 10rpx;
+}
+.content .border-bottom .bo-for .bo-one {
+  background-color: #00b6db;
+}
+.content .content-item {
+  background-color: #fff;
+  padding: 20rpx 30rpx;
+  margin: 30rpx 0;
+  box-sizing: border-box;
+}
+.content .content-item .content-item-title {
+  width: 100%;
+  font-weight: 600;
+  margin-bottom: 15rpx;
+}
+.content .order-info .info-content {
+  display: flex;
+}
+.content .order-info .info-content .left {
+  width: 170rpx;
+  height: 170rpx;
+  background-color: #fff;
+  overflow: hidden;
+}
+.content .order-info .info-content .left image {
+  width: 170rpx;
+  height: 170rpx;
+}
+.content .order-info .info-content .right ._span {
+  margin-left: 40rpx;
+  display: block;
+  font-size: 15px;
+  color: #666;
+}
+.content .order-info .info-content .right .right-content {
+  display: flex;
+}
+.content .order-info .info-content .right .right-content .right-list .item-title {
+  color: #333;
+  margin-left: 0;
+}
+.content .order-info .info-content .right .right-content .right-list .item-price {
+  margin-left: 0;
+  font-size: 11px;
+}
+.content .order-info .btns {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10rpx 0;
+}
+.content .order-info .btns .empty {
+  width: 30rpx;
+  height: 1rpx;
+}
+.content .order-info .btns button {
+  display: inline-block;
+  width: 160rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 14px;
+  padding: 0 20rpx;
+  border: #e2e2e2;
+  margin: 0 !important;
+}
+.content .order-info .pay-price {
+  display: flex;
+  justify-content: flex-end;
+}
+.content .remark .inputs {
+  background-color: #fcfcfc;
+  border: 1px solid #eeeeee;
+  height: 150rpx;
+  width: 100%;
+  border-radius: 8px;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+.content .remark .call-phone {
+  display: flex;
+  width: 100%;
+  padding-top: 20rpx;
+}
+.content .remark .call-phone ._span {
+  font-size: 14px;
+  color: #666;
+}
+.content .remark .call-phone input {
+  border-bottom: 1px solid #666;
+}
+.content .pays {
+  color: #6b6b6b;
+}
+.content .pay-right {
+  margin-right: 30rpx;
+  width: 100%;
+  border-top: 1px solid #eee;
+  position: fixed;
+  height: 100rpx;
+  background-color: #f5f5f5;
+  bottom: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.content .pay-right ._div {
+  width: 160rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 14px;
+  color: #fff;
+  background-color: #043764;
+  border: 1px solid #fff;
+  text-align: center;
+  border-radius: 30px;
+  margin-right: 20rpx;
+}
+.content .pay-right .btn1 {
+  background-color: #fff;
+  color: #043764;
+  border: 1px solid #043764;
+}
+

@@ -1,0 +1,107 @@
+
+.content {
+	display: flex;
+	flex-direction: column;
+	background-color: #eee;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+.userinfo {
+	display: flex;
+	height: 260rpx;
+	width: 100%;
+}
+.userinfo-left {
+	width: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.userinfo-left ._div {
+	width: 180rpx;
+	height: 180rpx;
+	border-radius: 50%;
+	border: 1px solid #515151;
+}
+.userinfo-left ._div image {
+	width: 180rpx;
+	height: 180rpx;
+	border-radius: 50%;
+}
+.userinfo-right {
+	width: 70%;
+	display: flex;
+	align-items: center;
+}
+.userinfo-right ._h1 {
+	font-size: 18px;
+}
+.order {
+	height: 120rpx;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+.order-item {
+	flex: 1;
+	text-align: center;
+	position: relative;
+}
+.order-item image {		
+	width: 60rpx;
+	height: 60rpx;
+}
+.order-item ._p {
+	font-size: 12px;
+}
+.order-item .number {
+	position: absolute;
+	top: -8rpx;
+	right: 45rpx;
+	background-color: #ff7100;
+	color: #fff;
+	border-radius: 50%;
+	width: 34rpx;
+	height: 34rpx;
+	text-align: center;
+	line-height: 34rpx;
+}
+.list {
+	width: 94%;
+	border-radius: 4px;
+	margin-left: 3%;
+	background-color: #fff;
+	margin-right: 3%;
+	color: #666;
+	margin-top: 50rpx;
+}
+.list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 90rpx;
+}
+.list-item-left {
+  margin-left: 30rpx;
+}
+.list-item-right {
+  margin-right: 30rpx;
+}
+.item-one {
+	border-bottom: 1px solid #eee;
+}
+.btn {
+	color: #666;
+	background-color: #fff;
+	height: 86rpx;
+	margin: 2rpx 0;
+	font-size: 17px;
+	padding-left: 0;
+	padding-right: 486rpx;
+}
+button::after{
+  border: none;
+}
+
+

@@ -1,0 +1,121 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path": "pages/me/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path": "pages/repair/index",
+			"style": {
+				"navigationBarTitleText": "维修",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path": "pages/details/index",
+			"style": {
+				"navigationBarTitleText": "维修",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path": "pages/uploadPic/index",
+			"style": {
+				"navigationBarTitleText": "图片上传",
+				"navigationStyle": "default"
+			}
+		}
+	    ,{
+            "path" : "pages/confirmPay/confirmPay",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "确认订单",
+				"navigationStyle": "default"
+            }
+            
+        }
+        ,{
+            "path" : "pages/agreement/agreement",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "百锐通协议",
+                "navigationStyle": "default"
+            }
+            
+        }
+        ,{
+            "path" : "pages/orders/orders",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的订单",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "default"
+            }
+            
+        }
+        ,{
+            "path" : "pages/orderInfo/orderInfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单详情",
+                "enablePullDownRefresh": false,
+                "navigationStyle": "default"
+            }
+            
+        }
+        ,{
+            "path" : "pages/applicationRefund/applicationRefund",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "申请退款",
+                "enablePullDownRefresh": false,
+                "navigationStyle": "default"
+            }
+            
+        }
+    ],	
+	"tabBar": {
+		"color": "#999",
+		"selectedColor": "#043764",
+		"borderStyle": "white",
+		"backgroundColor": "white",
+		"list": [
+			{
+				"iconPath": "static/home_fill_black.png",
+				"selectedIconPath": "static/home_fill.png",
+				"pagePath": "pages/index/index",
+				"text": "主页"
+			},
+			{
+				"iconPath": "static/维修-black.png",
+				"selectedIconPath": "static/维修.png",
+				"pagePath": "pages/repair/index",
+				"text": "维修"
+			},
+			{
+				"iconPath": "static/我的-black.png",
+				"selectedIconPath": "static/我的-我的.png",
+				"pagePath": "pages/me/index",
+				"text": "我的"
+			}			
+		]
+	},
+	"globalStyle": {
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

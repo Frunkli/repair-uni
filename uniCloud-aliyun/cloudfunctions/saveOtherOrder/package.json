@@ -1,0 +1,7 @@
+{
+  "name": "saveOtherOrder",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

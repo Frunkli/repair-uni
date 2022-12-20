@@ -1,0 +1,1 @@
+<view class="bgc"><view class="content">原因：<input type="text" data-event-opts="{{[['input',[['__set_model',['$0','reason','$event',[]],['query']]]]]}}" value="{{query.reason}}" bindinput="__e"/>金额：<input type="text" data-event-opts="{{[['input',[['__set_model',['$0','price','$event',[]],['query']]]]]}}" value="{{query.price}}" bindinput="__e"/></view></view>
